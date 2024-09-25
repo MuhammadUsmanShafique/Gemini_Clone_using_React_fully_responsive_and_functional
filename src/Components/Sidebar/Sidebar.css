@@ -1,0 +1,68 @@
+.sidebar {
+  min-height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f0f4f9;
+}
+.sidebar img {
+  width: 20px;
+}
+.sidebar .menu {
+  display: block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.new-chat {
+  margin-top: 1.5rem;
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  padding: 8px 10px;
+  background-color: #e0e6f1;
+  border-radius: 30px;
+  cursor: pointer;
+  color: gray;
+}
+.sidebar .recent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  color: rgb(128, 128, 128);
+  font-weight: bold;
+  padding: 1rem;
+}
+.sidebar .recent-entry {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 0.5rem;
+  font-weight: 400;
+  border-radius: 50px;
+}
+.sidebar .recent-entry:hover {
+  background-color: #e0e6f1;
+  cursor: pointer;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 400;
+  border-radius: 50px;
+}
+.bottom-item:hover {
+  background-color: rgba(160, 207, 221, 0.442);
+  cursor: pointer;
+}
+/*
+Here are doing nany things by writing first sidebar then the particular class
+we can do through direct classes as well.. in this case , we would be safe from 
+css over lapping 
+
+*/

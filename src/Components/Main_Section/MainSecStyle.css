@@ -1,0 +1,82 @@
+.main {
+  flex: 1;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: orangered;
+  font-size: 30px;
+  font-weight: bold;
+}
+.nav img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.greet {
+  font-size: 45px;
+  padding: 10px 0px 30px 30px;
+  color: rgba(128, 128, 128, 0.461);
+}
+#dec-text span {
+  background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+.card {
+  height: 200px;
+  background-color: hsl(213, 43%, 96%);
+  border-radius: 20px;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+.card img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.card:hover {
+  background-color: #e0e6f1;
+}
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.search-box img {
+  width: 30px;
+  height: 30px;
+}
+.search-box input {
+  flex: 1;
+  outline: none;
+  border: transparent;
+  font-size: 20px;
+  color: gray;
+  font-weight: 500;
+}
+.search-box .icon {
+  display: flex;
+  flex: 0.5;
+  gap: 5px;
+}
+.bottom-info {
+  font-size: 16px;
+  color: rgb(255, 68, 0);
+  font-weight: 400;
+  background-color: bisque;
+  text-align: center;
+}
